@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items to Buy for the House</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <h1>Things To Buy For The House</h1>
+    <form id="newItemEntry">
+        <div id="wrapperForForm">
+            <div class="everyForm">
+                <label for="item" class="toplevel">Name:</label>
+                <input type="text" id="item" required>
+            </div>
+
+            <div class="everyForm">
+                <label for="price" class="toplevel">Price:</label>
+                <input type="text" id="price" required>
+            </div>
+
+            <div class='everyForm'>
+                <label for="room" class="toplevel">Room:</label>
+                <select id="room">
+                    <option value="Living Room">Living Room</option>
+                    <option value="Kitchen">Kitchen</option>
+                    <option value="Bathroom">Bathroom</option>
+                    <option value="Bedrooms">Bedrooms</option>
+                    <option value="Whole Flat">Whole Flat</option>
+                </select>
+            </div>
+
+            <div class='everyForm'>
+                <label for="catagory" class="toplevel">Catagory:</label>
+                <select id="catagory">
+                    <option value="Electronics">Electronics</option>
+                    <option value="Subscription">Subscription</option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Miscellaneous">Miscellaneous</option>
+                </select>
+            </div>
+        </div>
+        <input type="submit" value="Add" id="submit">
+    </form>
+    <h2>Still to Buy:</h2>
+    <ul id="itemList"></ul>
+</body>
+</html>

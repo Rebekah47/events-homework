@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+
+}
+
+body > ul {
+    list-style: None;
+    display: flex;
+    flex-direction: row;
+  }
+
+body > ul > ls {
+    margin: 2px;
+    padding: 12px;
+    border-radius: 12px;
+    width: 200px;
+    border: black solid 2px;
+}
+
+.LIVINGROOM {
+    background-color: lightcoral
+
+}
+
+.KITCHEN {
+    background-color: lightblue;
+}
+
+.BATHROOM {
+    background-color: lightseagreen;
+}
+
+.BEDROOMS {
+    background-color: lightgray;
+}
+
+.WHOLEFLAT {
+    background-color: lightyellow;
+}
+
+.ELECTRONICS h2 {
+    background-color: yellow;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.SUBSCRIPTION h2 {
+    background-color: dodgerblue;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.FURNITURE h2 {
+    background-color: lime;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.MISC h2 {
+    background-color: orange;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+body > h1 {
+    color: cornsilk;
+}
+
+body > h2 {
+    color: cornsilk;
+}
