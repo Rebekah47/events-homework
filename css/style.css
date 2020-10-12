@@ -9,7 +9,6 @@ body {
 body > ul {
     list-style: None;
     display: flex;
-    flex-direction: row;
   }
 
 body > ul > ls {
